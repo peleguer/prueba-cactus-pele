@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 3em 0;
+}
+header p {
+  font-size: 1.5em;
+  color: #bbb;
+}
+
+.site-main {
+  padding: 2em 0;
+}
+
+.image-square {
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+body.home .site {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body.home .site .site-content {
+  flex: 1;
+}
+body.home .site .site-main {
+  font-size: 1.5em;
+}
+
+body.post-type-archive-perro .site-main .card {
+  margin: 2em 0;
+}
+body.post-type-archive-perro .site-main .card .card-title {
+  font-size: 2em;
+}
+
+body.single-eventos-caninos .site-main .main-column {
+  background-color: #eee;
+  padding: 2em;
+}
+body.single-eventos-caninos .site-main .title {
+  padding: 1em 0;
+}
+
+footer {
+  background-color: #ddd;
+  color: #444;
+  padding: 2em 0;
+}
+footer p {
+  font-size: 1.5em;
+  color: #bbb;
+}/*# sourceMappingURL=main.css.map */

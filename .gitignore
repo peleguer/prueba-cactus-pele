@@ -1,0 +1,14 @@
+# Common ignored macos files
+.DS_Store
+
+# Common ignored windows files
+Thumbs.db
+
+# Others
+.vscode/
+
+# Theme files
+public/wp-content/themes/cactus/**/*.css.map
+
+# Node files
+node_modules/
